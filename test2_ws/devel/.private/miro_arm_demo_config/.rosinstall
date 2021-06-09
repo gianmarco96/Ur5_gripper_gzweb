@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ubuntu20/test2_ws/devel/.private/miro_arm_demo_config/setup.sh

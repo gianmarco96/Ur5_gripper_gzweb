@@ -1,0 +1,8 @@
+prefix=/home/ubuntu20/test2_ws/devel/.private/miro_arm_config
+
+Name: miro_arm_config
+Description: Description of miro_arm_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

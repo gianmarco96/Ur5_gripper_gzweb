@@ -1,0 +1,1 @@
+/home/ubuntu20/test2_ws/devel/.private/ur5_miro_config/share/ur5_miro_config/cmake/ur5_miro_configConfig.cmake

@@ -1,0 +1,3 @@
+Symlinking /home/ubuntu20/test2_ws/devel/lib/pkgconfig/arm_miro_config.pc
+Symlinking /home/ubuntu20/test2_ws/devel/share/arm_miro_config/cmake/arm_miro_configConfig.cmake
+Symlinking /home/ubuntu20/test2_ws/devel/share/arm_miro_config/cmake/arm_miro_configConfig-version.cmake

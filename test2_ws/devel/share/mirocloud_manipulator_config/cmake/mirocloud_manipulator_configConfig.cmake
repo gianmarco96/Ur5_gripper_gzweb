@@ -1,0 +1,1 @@
+/home/ubuntu20/test2_ws/devel/.private/mirocloud_manipulator_config/share/mirocloud_manipulator_config/cmake/mirocloud_manipulator_configConfig.cmake

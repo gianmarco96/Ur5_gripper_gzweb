@@ -1,0 +1,8 @@
+prefix=/home/ubuntu20/test2_ws/install
+
+Name: ur5_config
+Description: Description of ur5_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

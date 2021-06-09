@@ -1,0 +1,5 @@
+robotiq/robotiq_description
+/home/ubuntu20/test2_ws/devel/.private/robotiq_description/cmake.lock /home/ubuntu20/test2_ws/devel/./cmake.lock
+/home/ubuntu20/test2_ws/devel/.private/robotiq_description/lib/pkgconfig/robotiq_description.pc /home/ubuntu20/test2_ws/devel/lib/pkgconfig/robotiq_description.pc
+/home/ubuntu20/test2_ws/devel/.private/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake /home/ubuntu20/test2_ws/devel/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+/home/ubuntu20/test2_ws/devel/.private/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake /home/ubuntu20/test2_ws/devel/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake

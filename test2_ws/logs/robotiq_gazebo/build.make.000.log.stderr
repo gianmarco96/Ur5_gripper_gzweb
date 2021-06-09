@@ -1,0 +1,25 @@
+[01m[K/home/ubuntu20/test2_ws/src/robotiq/robotiq_gazebo/src/mimic_joint_plugin.cpp:[m[K In destructor ‘[01m[Kvirtual gazebo::MimicJointPlugin::~MimicJointPlugin()[m[K’:
+[01m[K/home/ubuntu20/test2_ws/src/robotiq/robotiq_gazebo/src/mimic_joint_plugin.cpp:50:18:[m[K [01;31m[Kerror: [m[K‘[01m[KDisconnectWorldUpdateBegin[m[K’ is not a member of ‘[01m[Kgazebo::event::Events[m[K’
+   50 |   event::Events::[01;31m[KDisconnectWorldUpdateBegin[m[K(this->updateConnection);
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu20/test2_ws/src/robotiq/robotiq_gazebo/src/mimic_joint_plugin.cpp:[m[K In member function ‘[01m[Kvoid gazebo::MimicJointPlugin::UpdateChild()[m[K’:
+[01m[K/home/ubuntu20/test2_ws/src/robotiq/robotiq_gazebo/src/mimic_joint_plugin.cpp:170:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::World[m[K’ has no member named ‘[01m[KGetPhysicsEngine[m[K’; did you mean ‘[01m[KSetPhysicsEnabled[m[K’?
+  170 |   static ros::Duration period(world_->[01;31m[KGetPhysicsEngine[m[K()->GetMaxStepSize());
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                       [32m[KSetPhysicsEnabled[m[K
+[01m[K/home/ubuntu20/test2_ws/src/robotiq/robotiq_gazebo/src/mimic_joint_plugin.cpp:173:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Joint[m[K’ has no member named ‘[01m[KGetAngle[m[K’
+  173 |   double angle = joint_->[01;31m[KGetAngle[m[K(0).Radian()*multiplier_+offset_;
+      |                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu20/test2_ws/src/robotiq/robotiq_gazebo/src/mimic_joint_plugin.cpp:175:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Joint[m[K’ has no member named ‘[01m[KGetAngle[m[K’
+  175 |   if(abs(angle-mimic_joint_->[01;31m[KGetAngle[m[K(0).Radian())>=sensitiveness_)
+      |                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu20/test2_ws/src/robotiq/robotiq_gazebo/src/mimic_joint_plugin.cpp:179:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::physics::Joint[m[K’ has no member named ‘[01m[KGetAngle[m[K’
+  179 |       double a = mimic_joint_->[01;31m[KGetAngle[m[K(0).Radian();
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ubuntu20/test2_ws/src/robotiq/robotiq_gazebo/src/mimic_joint_plugin.cpp:183:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kgazebo::math[m[K’ has not been declared
+  183 |       double effort = gazebo::[01;31m[Kmath[m[K::clamp(pid_.computeCommand(error, period), -max_effort_, max_effort_);
+      |                               [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/gazebo_mimic_joint_plugin.dir/build.make:63: CMakeFiles/gazebo_mimic_joint_plugin.dir/src/mimic_joint_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/gazebo_mimic_joint_plugin.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

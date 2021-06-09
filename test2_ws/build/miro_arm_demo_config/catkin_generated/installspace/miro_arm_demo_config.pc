@@ -1,0 +1,8 @@
+prefix=/home/ubuntu20/test2_ws/install
+
+Name: miro_arm_demo_config
+Description: Description of miro_arm_demo_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

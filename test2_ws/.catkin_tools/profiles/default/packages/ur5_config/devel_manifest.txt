@@ -1,0 +1,5 @@
+ur5/ur5_config
+/home/ubuntu20/test2_ws/devel/.private/ur5_config/cmake.lock /home/ubuntu20/test2_ws/devel/./cmake.lock
+/home/ubuntu20/test2_ws/devel/.private/ur5_config/lib/pkgconfig/ur5_config.pc /home/ubuntu20/test2_ws/devel/lib/pkgconfig/ur5_config.pc
+/home/ubuntu20/test2_ws/devel/.private/ur5_config/share/ur5_config/cmake/ur5_configConfig.cmake /home/ubuntu20/test2_ws/devel/share/ur5_config/cmake/ur5_configConfig.cmake
+/home/ubuntu20/test2_ws/devel/.private/ur5_config/share/ur5_config/cmake/ur5_configConfig-version.cmake /home/ubuntu20/test2_ws/devel/share/ur5_config/cmake/ur5_configConfig-version.cmake

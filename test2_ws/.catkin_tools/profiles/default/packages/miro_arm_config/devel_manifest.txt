@@ -1,0 +1,5 @@
+ur5/miro_arm_config
+/home/ubuntu20/test2_ws/devel/.private/miro_arm_config/cmake.lock /home/ubuntu20/test2_ws/devel/./cmake.lock
+/home/ubuntu20/test2_ws/devel/.private/miro_arm_config/lib/pkgconfig/miro_arm_config.pc /home/ubuntu20/test2_ws/devel/lib/pkgconfig/miro_arm_config.pc
+/home/ubuntu20/test2_ws/devel/.private/miro_arm_config/share/miro_arm_config/cmake/miro_arm_configConfig-version.cmake /home/ubuntu20/test2_ws/devel/share/miro_arm_config/cmake/miro_arm_configConfig-version.cmake
+/home/ubuntu20/test2_ws/devel/.private/miro_arm_config/share/miro_arm_config/cmake/miro_arm_configConfig.cmake /home/ubuntu20/test2_ws/devel/share/miro_arm_config/cmake/miro_arm_configConfig.cmake

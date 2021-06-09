@@ -1,0 +1,1 @@
+/home/ubuntu20/test2_ws/devel/.private/arm_miro_config/lib/pkgconfig/arm_miro_config.pc
